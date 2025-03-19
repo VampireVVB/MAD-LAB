@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#B4E4D7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Student Database"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="40dp"
+        android:textColor="#A491D0"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:text="Name:"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:text="Surname:"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:text="Marks:"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/t1"
+        android:layout_marginTop="140dp"
+        android:hint="Enter Name"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/t2"
+        android:layout_marginTop="190dp"
+        android:hint="Enter Surname"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/t3"
+        android:layout_marginTop="240dp"
+        android:hint="Enter Marks"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Update/Delete:"
+        android:textSize="20dp"
+        android:layout_below="@+id/button"
+        />
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/t4"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginLeft="50dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/t4"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginLeft="250dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/t4"
+        android:layout_marginTop="50dp"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
