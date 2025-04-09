@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newg"
+        android:title="New Group"/>
+    <item
+        android:id="@+id/joing"
+        android:title="Join Group"/>
+    <item
+        android:id="@+id/delg"
+        android:title="Delete Group"/>
+</menu>
